@@ -8,6 +8,18 @@
     <artifactId>lessons</artifactId>
     <version>0.0.1</version>
 
+    <properties>
+        <postgres.version>42.2.14</postgres.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>${postgres.version}</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
